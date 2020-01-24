@@ -1,7 +1,7 @@
 import { MatCardModule, MatSidenavModule } from '@angular/material';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowserModule } from '@angular/platform-browser';
-import { Ng2PageScrollModule } from 'ng2-page-scroll';
+//import { Ng2PageScrollModule } from 'ng2-page-scroll';
 import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { HeaderModule } from './header/header.module';
@@ -38,8 +38,8 @@ import { CompanyComponent } from './experience/company/company.component';
     HeaderModule,
     AppRoutingModule,
     MatCardModule,
-    MatSidenavModule,
-    Ng2PageScrollModule
+    MatSidenavModule
+   // Ng2PageScrollModule
   ],
   providers: [],
   bootstrap: [AppComponent]
