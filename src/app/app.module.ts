@@ -15,6 +15,7 @@ import { EducationComponent } from './education/education.component';
 import { SkillsComponent } from './skills/skills.component';
 import { SchoolsComponent } from './education/schools/schools.component';
 import { CompanyComponent } from './experience/company/company.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -30,7 +31,8 @@ import { CompanyComponent } from './experience/company/company.component';
     EducationComponent,
     SkillsComponent,
     SchoolsComponent,
-    CompanyComponent
+    CompanyComponent,
+    FooterComponent
   ],
   imports: [
     BrowserAnimationsModule,
